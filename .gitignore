@@ -1,0 +1,28 @@
+# 1. 가상환경 및 패키지 매니저 관련 제외
+.venv/
+
+# 2. 파이썬 캐시 및 임시 파일 제외
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# 3. 딥러닝 모델 체크포인트, 가중치, 데이터셋 파일 제외
+*.pt
+*.pth
+*.ckpt
+*.h5
+data/
+datasets/
+runs/
+wandb/
+
+# 4. 운영체제 및 에디터 임시 파일 제외
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+notebooks/data_imagenette/
