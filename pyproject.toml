@@ -12,6 +12,7 @@ dependencies = [
     "torchmetrics",
     "torchinfo",
     "matplotlib",
+    "pyyaml>=6.0.3",
 ]
 
 [tool.uv.sources]
