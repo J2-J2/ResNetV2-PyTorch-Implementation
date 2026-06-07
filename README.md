@@ -1,7 +1,7 @@
 # ResNet-PyTorch-Implementation
 
-PyTorch를 활용하여 ResNet v2를 직접 구현하고 실험한 저장소입니다.
-본 프로젝트에서는 ResNet v2의 핵심 구조인 BasicBlock, Bottleneck, Projection Shortcut을 직접 구현했으며,
+PyTorch를 활용하여 ResNet v2를 직접 구현하고 실험한 저장소입니다.  
+본 프로젝트에서는 ResNet v2의 핵심 구조인 BasicBlock, Bottleneck, Projection Shortcut을 직접 구현했으며,  
 uv를 패키지 매니저로 사용하여 실험 환경을 관리합니다.
 
 ---
@@ -19,6 +19,8 @@ uv를 패키지 매니저로 사용하여 실험 환경을 관리합니다.
     <b>ResNet v2 논문 리뷰 및 구현 by J2-J2</b>
   </a>
 </p>
+
+
 ---
 
 ## Environment Setup
