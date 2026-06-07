@@ -31,5 +31,5 @@ def get_loaders(config, inference=True):
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=num_workers, pin_memory=True)
     val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=True, num_workers=num_workers, pin_memory=True)
 
-    return train_loader, val_loader
+    return train_loader, val_loader, val_dataset.classes
 

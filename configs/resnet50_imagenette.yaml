@@ -12,6 +12,7 @@ data:
   num_workers: 4
   mean: [0.485, 0.456, 0.406]
   std: [0.229, 0.224, 0.225]
+  inference_dir: data/data_imagenette/imagenette2/val/n01440764
 
 train:
   epochs: 30

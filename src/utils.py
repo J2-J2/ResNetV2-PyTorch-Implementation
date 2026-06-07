@@ -2,7 +2,7 @@
 
 import torch
 import torchmetrics
-
+from pathlib import Path
 
 def get_metrics(n_class, device):
     precision_metric = torchmetrics.Precision(
@@ -26,8 +26,13 @@ def get_metrics(n_class, device):
     return precision_metric, recall_metric, f1_metric
 
 
-def save_model(model, path):
-    torch.save(model.state_dict(), path)
+def save_model(model, path, class_names):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    checkpoint = {
+        "state_dict": model.state_dict(),
+        "class_names": class_names
+    }
+    torch.save(checkpoint, path)
 
 
 def print_epoch_result(
