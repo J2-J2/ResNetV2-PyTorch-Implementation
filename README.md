@@ -7,12 +7,18 @@ uv를 패키지 매니저로 사용하여 실험 환경을 관리합니다.
 ---
 
 본 구현에 대한 분석은 아래 블로그에 기록해 두었습니다.
-<a href="https://velog.io/@jeongjae/ResNetV2-PyTorch-Implementation">
-  <img src="./pinggu.jpg" width="150" height="150" style="border-radius: 50%; object-fit: cover;">
-</a>
 
-[**ResNet v2 논문 리뷰 및 구현  by J2-J2**](https://velog.io/@jeongjae/ResNetV2-PyTorch-Implementation)
+<p align="center">
+  <a href="https://velog.io/@jeongjae/ResNetV2-PyTorch-Implementation">
+    <img src="./pinggu_circle.png" width="150" height="150">
+  </a>
+</p>
 
+<p align="center">
+  <a href="https://velog.io/@jeongjae/ResNetV2-PyTorch-Implementation">
+    <b>ResNet v2 논문 리뷰 및 구현 by J2-J2</b>
+  </a>
+</p>
 ---
 
 ## Environment Setup
